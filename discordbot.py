@@ -18,8 +18,8 @@ async def ping(ctx):
     await ctx.send('pong')
     
 @bot.command()
-async def mini(ctx):
-    await ctx.send('big')
+async def a(ctx):
+    await ctx.send('あ')
 
 
 bot.run(token)
