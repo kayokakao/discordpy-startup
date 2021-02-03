@@ -18,7 +18,7 @@ async def ping(ctx):
     await ctx.send('pong')
     
 @bot.command()
-async def unko(ctx):
+async def mini(ctx):
     await ctx.send('big')
 
 
